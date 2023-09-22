@@ -70,15 +70,4 @@ class Solution {
     }
 }
 
-(String str) {
-        // code here
-        String ds="";
-        for(int i=0;i<str.length();i++)
-        {
-            if(ds.indexOf(str.charAt(i))==-1)
-            ds+=str.charAt(i);
-        }
-        return ds;
-    }
-}
 
